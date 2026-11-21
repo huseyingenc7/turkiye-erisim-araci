@@ -113,7 +113,7 @@ Yönetici yetkisiyle çalışan bir aracı kullanmadan önce içeriğini incelem
 
 - `Erisim_Ac.cmd`, `Erisim_Kapat.cmd`, `erisim_ac.ps1` ve `dns_kopru.ps1` düz metin dosyalarıdır; herhangi bir metin düzenleyiciyle incelenebilir.
 - Araç, yalnızca Cloudflare (`cloudflare-dns.com`) ve Google (`dns.google`) şifreli DNS sunucularıyla iletişim kurar.
-- Paketteki ikili dosyalar GoodbyeDPI 0.2.3rc3 sürümüne aittir. Dosyaları [GoodbyeDPI'ın resmi sürümleriyle](https://github.com/ValdikSS/GoodbyeDPI/releases) karşılaştırabilir veya kendiniz indirdiğiniz dosyalarla değiştirebilirsiniz.
+- Paketteki ikili dosyalar GoodbyeDPI 0.2.3rc3 ve WinDivert 2.2 sürümlerine aittir ve `goodbyedpi-0.2.3rc3-turkey` paketinden değiştirilmeden alınmıştır (ayrıntılar: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)). Dosyaları [GoodbyeDPI'ın resmi sürümleriyle](https://github.com/ValdikSS/GoodbyeDPI/releases) karşılaştırabilir veya kendiniz indirdiğiniz dosyalarla değiştirebilirsiniz.
 
 SHA-256 özetleri:
 
@@ -143,7 +143,8 @@ turkiye-erisim-araci/
 ├── dns_kopru.ps1        Şifreli DNS köprüsü
 ├── x86/                 GoodbyeDPI ve WinDivert (32 bit)
 ├── x86_64/              GoodbyeDPI ve WinDivert (64 bit)
-└── licenses/            Lisans metinleri
+├── licenses/            Lisans metinleri
+└── THIRD_PARTY_NOTICES.md   Üçüncü taraf bileşen bilgileri
 ```
 
 ## Lisans
@@ -158,7 +159,7 @@ Pakete dahil edilen üçüncü taraf yazılımlar kendi lisanslarına tabidir:
 | [WinDivert](https://github.com/basil00/WinDivert) | LGPL v3 / GPL v2 |
 | getline, uthash | İlgili lisans metinleri |
 
-Lisans metinleri [`licenses/third-party`](licenses/third-party) klasöründe yer almaktadır.
+Lisans metinleri [`licenses/third-party`](licenses/third-party) klasöründe; sürüm, telif hakkı ve kaynak kodu bilgileri [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) dosyasında yer almaktadır. Üçüncü taraf dosyalarda herhangi bir değişiklik yapılmamıştır.
 
 ## Sorumluluk Reddi
 

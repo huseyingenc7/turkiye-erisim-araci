@@ -1,0 +1,10 @@
+# Windows betikleri CRLF satir sonuyla kalmali (LF ile .cmd dosyalari bozulabilir)
+*.cmd  text eol=crlf
+*.ps1  text eol=crlf
+*.md   text eol=lf
+LICENSE text eol=lf
+
+# Ikili dosyalar
+*.exe  binary
+*.dll  binary
+*.sys  binary

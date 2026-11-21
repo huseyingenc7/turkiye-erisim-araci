@@ -4,6 +4,8 @@ Türkiye'de erişim engeli bulunan sitelere ve uygulamalara (Discord, Roblox, Ro
 
 Araç, [GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)'ı **Windows hizmeti olarak kurmadan** çalıştırır ve DNS sorgularını şifreli DNS (DNS-over-HTTPS) üzerinden iletir. Bilgisayar açılışında hiçbir bileşen otomatik olarak başlamaz; araç yalnızca kullanıcı tarafından çalıştırıldığında etkindir ve kapatıldığında sistem ayarları önceki hâline döndürülür.
 
+> **Bu aracı kimler kullanmalı?** Mevcut GoodbyeDPI kurulumu sorunsuz çalışan kullanıcıların bu aracı kullanmasına gerek yoktur. Araç; GoodbyeDPI'ın hizmet olarak kurulması nedeniyle internet bağlantısı kesilen, GoodbyeDPI'ın hazır betikleriyle erişim sağlayamayan veya GoodbyeDPI'ı yalnızca ihtiyaç duyduğu anlarda çalıştırmak isteyen kullanıcılar için hazırlanmıştır.
+
 > **Not:** Araç Türk Telekom altyapısında test edilmiştir. Diğer internet servis sağlayıcılarında (Turkcell Superonline, Vodafone, TurkNet vb.) çalışması garanti edilmez. Farklı bir sağlayıcıda denediyseniz sonucu [Issues](../../issues) bölümünden bildirmeniz diğer kullanıcılara yardımcı olacaktır.
 
 ---
